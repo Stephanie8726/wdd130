@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+:root {
+    --primary-color: #14455D;
+    --secondary-color: #A5CAD2;
+    --accent1-color: #F46B6B;
+    --accent2-color: #C8D85D;
+}
+* {
+    margin: 17px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+/* Style headings and paragraphs */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+  font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  color: var(--text-color);
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Color fonts */
+a {
+  color: var(--primary-color);
+}
+
+/* Remove underline from social media links */
+.social-media a, nav a {
+  text-decoration: none;
+}
+/* nav a {
+    text-decoration: none;
+} */
+
+/* Limit page width */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Style Hero Container */
+.hero {
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  /* padding: 3em; */
+}
+
+.hero h1 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--heading-color);
+  font-size: 3.5rem;
+  font-family: 'Open Sans', sans-serif;
+  background-color:lightgreen
+}
+
+.hero article {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2rem;
+  width: 80%;
+}
+
+.hero article p {
+  float: right;
+  width: 55%;
+}
+
+.hero article img {
+  float: right;
+  width: 35%;
+  margin-left: 1rem;
+  background-image:none
+}
+section h2 {
+    font-family: monospace;
+    /* font-size: 1px; */
+    color:coral
+}
