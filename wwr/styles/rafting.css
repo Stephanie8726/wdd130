@@ -5,11 +5,7 @@
     --accent1-color: #F46B6B;
     --accent2-color: #C8D85D;
 }
-/* * {
-    margin: 15px;
-    box-sizing: border-box;
-}
- */
+
 body {
   max-width: 1000px;
   margin: 0px auto;
@@ -20,7 +16,6 @@ header {
 	display: grid;
   grid-template-columns: 1fr 2fr;
   justify-items: center;
-  /* border: 1px solid black; */
 }
 
 header img {
@@ -160,7 +155,3 @@ footer {
   border-top: 1px solid gray;
   padding-top: 20px;
 }
-
-/* nav {
-	text-align: right;
-} */
