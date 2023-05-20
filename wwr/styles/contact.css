@@ -56,7 +56,8 @@ header nav a:hover {
 }
 
 .profile img {
-    width: 150px;
+    width: 320px;
+    height: 150px;
 }
 
 h1, p {
@@ -80,7 +81,7 @@ h2 {
     justify-content: center;
     font-size: 25px;
     font-family: helvetica;
-    color: teal;
+    color: navy;
     margin-bottom: 15px;
     margin-top: 15px;
 }
@@ -115,9 +116,10 @@ button:hover {
     background-color: teal;
 }
 
-a {
+/* a {
   color: var(--primary-color);
-}
+  text-align: center;
+} */
 
 .sociallinks img {
   width: 40px;
@@ -141,4 +143,8 @@ footer {
   margin: 20px 0px;
   border-top: 1px solid gray;
   padding-top: 20px;
+}
+
+.wireframe {
+  text-align: center;
 }
