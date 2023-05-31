@@ -68,23 +68,22 @@ header nav a:hover {
   margin-top: 50px;
 }
 
-.grid-item .caption {
-  font-weight: bold;
-  margin-bottom: 0;
+.grid-item p {
+  /* font-weight: bold; */
+  margin-top: 0;
 }
 
-.grid-item .title {
+.grid-item h2 {
   font-style: italic;
   font-weight: bold;
   margin-top: 0;
 }
 
 .hero {
+  width: 100%;
+  height: auto;
   position: relative;
-}
-
-.hero img {
-  text-align: left;
+  overflow: hidden;
 }
 
 .hero .content {
