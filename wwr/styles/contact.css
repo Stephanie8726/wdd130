@@ -88,7 +88,7 @@ h2 {
 }
 
 .contact-form {
-  width: 100%;
+  max-width: auto;
   margin: 0 auto;
   padding: 10px;
   background-color: #f2f2f2;
