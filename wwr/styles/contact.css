@@ -1,15 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
 :root {
-    --primary-color: #14455D;
-    --secondary-color: #A5CAD2;
-    --accent1-color: #F46B6B;
-    --accent2-color: #C8D85D;
+  --primary-color: #14455D;
+  --secondary-color: #A5CAD2;
+  --accent1-color: #F46B6B;
+  --accent2-color: #C8D85D;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -18,8 +19,8 @@ body {
 }
 
 header {
-	margin: 1rem auto;
-	display: grid;
+  margin: 1rem auto;
+  display: grid;
   grid-template-columns: 1fr 2fr;
   justify-items: center;
 }
@@ -30,63 +31,65 @@ header img {
 
 header nav {
   display: flex;
-	color: navy;
-	text-decoration: none;
+  color: navy;
+  text-decoration: none;
   gap: 20px;
   align-items: center;
 }
 
 header nav a {
-	color: navy;
-	text-decoration: none;
-    font-size: 15px;
+  color: navy;
+  text-decoration: none;
+  font-size: 15px;
 }
 
 header nav a:hover {
-	color: teal;
-	font-weight: 700;
-	text-decoration: underline;
+  color: teal;
+  font-weight: 700;
+  text-decoration: underline;
 }
 
 .employee-profiles {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
 }
 
 .profile img {
-    width: 100%;
+  width: 100%;
 }
 
-h1, p {
-    text-align: center;
-    font-size: 25px;
-    font-family: helvetica, sans-serif;
-    color: navy;
-    margin-bottom: 10px;
-    margin-top: 10px; 
+h1,
+p {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  color: navy;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 p {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 h2 {
-    text-align: center;
-    font-size: 25px;
-    font-family: helvetica, sans-serif;
-    color: navy;
-    margin-bottom: 15px;
-    margin-top: 15px;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  color: navy;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .google-map {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .contact-form {
   max-width: auto;
+  width: 100%;
   margin: 0 auto;
   padding: 10px;
   background-color: #f2f2f2;
@@ -142,24 +145,22 @@ h2 {
 
 .contact-form button[type="submit"]:hover {
   background-color: #A5CAD2;
-  text-align: center;
 }
 
-
 button {
-    margin: 1rem;
-    background-color: navy;
-    color: #fff;
-    border: none;
-    border-radius: .5rem;
-    padding: .75rem;
-    font-size: 1.2rem;
-    text-align: center;
-    cursor: pointer;
+  margin: 1rem;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  font-size: 1.2rem;
+  text-align: center;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: teal;
+  background-color: teal;
 }
 
 .sociallinks img {
@@ -176,7 +177,7 @@ button:hover {
 footer p {
   text-align: center;
   margin: 0px 45px;
-  line-height: 40px;  
+  line-height: 40px;
 }
 
 footer {
