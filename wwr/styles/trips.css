@@ -43,44 +43,93 @@ header nav a:hover {
 }
 
 div a:hover {
-    color: tomato;
+  color: tomato;
 	font-weight: 700;
 	text-decoration: underline;
+}
+
+.call-to-action {
+  text-align: center;
+  background-color: #14455D;
+  padding: 10px;
+  color: #fff;
+}
+
+.call-to-action h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.call-to-action h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.call-to-action .button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #F46B6B;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.call-to-action .button:hover {
+  background-color: #C8D85D;
 }
 
 .Awesome-trip {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-}
-
-.call-to-action, a {
-    text-align: center;
-    color: navy;
-    text-decoration: none;
-    font-size: 20px;
-}
-
-p {
-    color: navy;
-    font-size: 18px;
+    margin: 20px auto;
 }
 
 h2 {
-    font-size: 25px;
-    color: navy;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin: none;
+  color: navy;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: helvitica, sans-serif;
+}
+
+p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .trip img {
-    width: 300px;
+    width: 320px;
     height: 250px;
 }
 
 .trip-table {
-    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
+    color: black;
+    word-spacing: 2px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #f2f2f2;
 }
 
 .sociallinks img {
@@ -112,9 +161,9 @@ footer {
 }
 
 wireframe a:hover {
-    color: tomato;
+  color: tomato;
 	font-weight: 400;
 	text-decoration: underline;
-    margin-bottom: 20px;
-    margin-top: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
