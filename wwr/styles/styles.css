@@ -39,7 +39,7 @@ header nav {
 header nav a {
   color: white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 10px;
   font-weight: bold;
 }
 
@@ -69,7 +69,6 @@ header nav a:hover {
 }
 
 .grid-item p {
-  /* font-weight: bold; */
   margin-top: 0;
 }
 
@@ -117,6 +116,7 @@ header nav a:hover {
   font-size: 35px;
   margin-top: -200px;
   color: rgb(4, 4, 81);
+  background-color: rgb(247, 241, 241);
   font-weight: bolder;
 }
 
@@ -124,13 +124,14 @@ header nav a:hover {
   font-size: 22px;
   font-weight: bolder;
   color: rgb(4, 4, 81);
+  background-color: rgb(247, 241, 241);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .home-image a.button {
   display: inline-block;
   padding: 8px 15px;
-  background-color: tomato;
+  background-color: navy;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -247,21 +248,21 @@ header nav a:hover {
 
 .newsletter button[type="submit"] {
   padding: 10px 20px;
-  background-color: #14455D;
+  background-color: navy;
   color: #fff;
   border: none;
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
-  display: flex;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
   text-align: center;
-  align-items: center;
-  position: relative;
-  left: 400px;
 }
 
 .newsletter button:hover {
-  background-color: tomato;
+  background-color: rgb(140, 31, 12);
 }
 
 .sociallinks img {
@@ -279,6 +280,7 @@ footer p {
   text-align: center;
   margin: 0px 45px;
   line-height: 70px;
+  color: #fff;
 }
 
 footer {
